@@ -77,7 +77,7 @@ class tpcrn_magazine_singlethumb_Widget extends WP_Widget {
 				<div class="list-block clearfix">
 				<h3><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3> 	
 					<div class="post-meta-blog">
-			<span class="meta_author"><?php _e('by', 'themepacific'); ?> <?php the_author_posts_link(); ?></span>
+			<!--<span class="meta_author"><?php _e('by', 'themepacific'); ?> <?php the_author_posts_link(); ?></span>-->
 			<span class="meta_date"><?php _e('On', 'themepacific'); ?> <?php the_time('F d, Y'); ?></span>
  			<span class="meta_comments"><?php _e('', 'themepacific'); ?>  <a href="<?php comments_link(); ?>"><?php comments_number('0 Comment', '1 Comment', '% Comments'); ?></a></span>
   			</div>
