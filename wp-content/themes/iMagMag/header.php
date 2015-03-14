@@ -43,14 +43,14 @@ if ( is_singular() && get_option( 'thread_comments' ) )		wp_enqueue_script( 'com
 
 <body <?php body_class();?>> 
    <?php 
-     if ( has_nav_menu('topNav') ){ 
+     /*if ( has_nav_menu('topNav') ){ 
    ?>
 	<!-- #CatNav -->  
 	<div id="catnav">	
 		<?php wp_nav_menu(array('theme_location' => 'topNav','container'=> '','menu_id'=> 'catmenu','menu_class'=> ' container clearfix','fallback_cb' => 'false','depth' => 3)); ?>
 	</div> 
 	<!-- /#CatNav -->  
-	<?php } ?> 
+	<?php }*/ ?> 
 <!-- /#Header --> 
 <div id="header" class="container">	
 	<div id="head-content" class="clearfix ">
