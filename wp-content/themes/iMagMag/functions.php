@@ -206,7 +206,6 @@ function tpcrn_cre_def( )
  		$b_dat= date("Y");
 		echo '<div class="foot-wrap container">';
  		echo '<p class="copyright">'.get_bloginfo('name'). '&nbsp; &copy;&nbsp;' . $b_dat.  '</p>';
-   		echo '<p class="credit">Designed by <a title="ThemePacific" href="http://themepacific.com">ThemePacific</a></p>';
 		echo '</div>';
   
 }
