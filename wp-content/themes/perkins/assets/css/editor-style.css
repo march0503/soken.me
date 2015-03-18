@@ -1,0 +1,26 @@
+@import url('http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic');
+
+body {font-family:'Noto Sans',sans-serif; color:#555; line-height:1.6em; font-size:14px; width:750px;}
+a {color:#2a8ea5;}
+a:hover {text-decoration:none; opacity:0.7; color:#2a8ea5;}
+img {max-width:100%!important; height:auto; display:block;}
+
+#tinymce {line-height:1.75em;}
+#tinymce h1, #tinymce h2, #tinymce h3, #tinymce h4, #tinymce h5, #tinymce h6 {margin:0 0 25px 0; color:#333; letter-spacing:-0.02em;}
+#tinymce h1 {font-size:30px;}
+#tinymce h2 {font-size:26px;}
+#tinymce h3 {font-size:22px;}
+#tinymce h4 {font-size:20px;}
+#tinymce h5 {font-size:18px;}
+#tinymce h6 {font-size:16px;}
+#tinymce p, #tinymce dl { margin-bottom:20px;}
+#tinymce blockquote {font-size:20px; font-style:italic; line-height:1.75em;}
+#tinymce blockquote cite {width:100%; display:block; color:#333; font-size:16px; font-style:normal; font-weight:bold;}
+#tinymce dt {font-weight:bold;}
+#tinymce dd {margin:0 0 10px 0;}
+#tinymce table {width:100%; margin-bottom:20px;}
+#tinymce table td, #tinymce table th {padding:5px; border:1px solid #ddd;}
+#tinymce table th {background-color:#f9f9f9;}
+#tinymce .alignleft {float:left; margin:0 20px 20px 0;}
+#tinymce .alignright {float:right; margin:0 0 20px 20px;}
+#tinymce .wp-caption-text {max-width:100%; font-size:15px; font-style:italic; margin-top:5px; color:#777;}
