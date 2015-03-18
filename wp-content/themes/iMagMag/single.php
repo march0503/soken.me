@@ -21,10 +21,11 @@
 				  <!--/.post-title-->
  		<!--/#post-meta --> 
 			<div class="post-meta-blog">
+			<p class="post-tags"><strong>TOPICS </strong><?php the_tags('',''); ?></p>
 			<!--a<span class="meta_author"><?php _e('Posted by', 'themepacific'); ?> <?php the_author_posts_link(); ?></span>-->
 			<span class="meta_date"><?php _e('On', 'themepacific'); ?> <?php the_time('F d, Y'); ?></span>
-			<span class="meta_comments"><?php _e('', 'themepacific'); ?>  <a href="<?php comments_link(); ?>"><?php comments_number('0 Comment', '1 Comment', '% Comments'); ?></a></span>
- 			<?php edit_post_link( __( 'Edit', 'themepacific' ), '<span class="edit-link">', '</span>' ); ?>
+			<!--<span class="meta_comments"><?php _e('', 'themepacific'); ?>  <a href="<?php comments_link(); ?>"><?php comments_number('0 Comment', '1 Comment', '% Comments'); ?></a></span>-->
+ 			<!--<?php edit_post_link( __( 'Edit', 'themepacific' ), '<span class="edit-link">', '</span>' ); ?>-->
  			</div>
 			<!--/#post-meta --> 
 			 <!-- .post_content -->
@@ -35,9 +36,6 @@
 			 <!-- /.post_content -->
 					<?php wp_link_pages(); ?>
    					<div class='clear'></div>
-					<p class="post-tags">
-						<strong>TOPICS </strong><?php the_tags('',''); ?>					
-						</p>
 			</div>
 		<!--/.post-outer -->
  
