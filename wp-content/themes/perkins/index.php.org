@@ -22,7 +22,7 @@
 	endif;
 	?>		
 	<div id="teaser-holder" class="row">
-		<div class="col-md-8">
+		<div class="col-md-8">		
 			<?php
 				global $perkins_count;
 				$perkins_count = 1;

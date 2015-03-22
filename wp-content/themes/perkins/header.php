@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="row">
 			<div class="col-sm-8">				
-				<?php wp_nav_menu(array('theme_location' => 'secondary','depth' => 1,'container' => false,'fallback_cb' => false)); ?>
+				<?php wp_nav_menu(array('theme_location' => 'secondary','depth' => 1,'container' => false,'fallback_cb' => false)); ?>	
 			</div>
 			<div class="col-sm-4">
 				<div id="social-icons">
@@ -48,7 +48,7 @@
 		    <?php else: ?>
 		        <a id="site-title" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
 		    <?php endif; ?>			
-			<p id="site-desc"><span><?php bloginfo('description'); ?></span></p>
+			<!-- <p id="site-desc"><span><?php bloginfo('description'); ?></span></p> -->
 		</div>
 	</div>
 </header>
