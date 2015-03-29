@@ -25,6 +25,9 @@
 				<div class="col-md-6">
 					<nav><?php wp_nav_menu(array('theme_location' => 'footer','depth' => 1,'container' => false,'fallback_cb' => false)); ?></nav>
 				</div>
+				<div class="col-md-6">
+					<p><a href="http://soken.me/aboutus/">トレンド総研とは</a></p>
+				</div>
 			</div>
 		</div>
 	</div>	
