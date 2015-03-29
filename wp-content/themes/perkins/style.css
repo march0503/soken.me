@@ -81,9 +81,10 @@ footer {margin-top:60px;}
 
 /* ----- post teasers ----- */
 #teaser-holder {padding:30px;}
-#teaser-top-holder {border-bottom:1px dotted #ddd; float:left; padding-bottom:15px;  background:none repeat scroll 0 0 #f5f5f5; } 
-#teaser-top-holder .top-1 {padding-left:0;}
-#teaser-top-holder .top-2 {padding-right:0;}
+#teaser-top-holder {border-bottom:1px dotted #ddd; float:left; padding-bottom:15px;  background:none repeat scroll 0 0 #f5f5f5; width:1500px !important;} 
+#teaser-top-holder .top-1 {width:33%; padding-left:0;}
+#teaser-top-holder .top-2 {width:33%; padding-left:0;}
+#teaser-top-holder .top-3 {width:33%; padding-right:0;}
 .teaser-top .teaser-date {background-color:#f2f2f2; color:#aaa; text-transform:uppercase; font-size:11px; margin:0; padding:3px 10px;}
 .teaser-top .teaser-title {padding-left:10px; font-size:16px;}
 .teaser-top .teaser-title a {color:#000;}

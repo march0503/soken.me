@@ -20,7 +20,7 @@
 		<?php
 		wp_reset_postdata();
 	endif;
-	?>		
+	?>
 	<div id="teaser-holder" class="row">
 		<div class="col-md-8">
 			<?php

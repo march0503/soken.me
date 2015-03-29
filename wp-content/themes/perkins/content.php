@@ -31,7 +31,7 @@
 	<?php if ($perkins_count == 1): ?>
 		<div id="teaser-top-holder">
 	<?php endif; ?>		
-	<?php if ($perkins_count == 1 || $perkins_count == 2 ): ?>
+	<?php if ($perkins_count == 1 || $perkins_count == 2 || $perkins_count == 3 ): ?>
 		<div class="col-xs-6 top-<?php echo $perkins_count; ?>">
 			<div <?php post_class(); ?>>
 				<div class="teaser-top">
@@ -64,7 +64,7 @@
 			</div>		
 		</div>
 	<?php endif; ?>
-	<?php if ($perkins_count == 2): ?>
+	<?php if ($perkins_count == 3): ?>
 	</div>
 <?php endif; ?>
 <?php endif; ?>
