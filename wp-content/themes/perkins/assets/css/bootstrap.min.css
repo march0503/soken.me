@@ -45,6 +45,7 @@ html{
 	.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}
 	.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
 	
+	.top-eyechatch{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}
 	.top-teaser{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}
 	
 	.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}
@@ -70,7 +71,7 @@ html{
 	.col-xs-9{width:75%}
 	.col-xs-8{width:66.66666667%}
 	.col-xs-7{width:58.33333333%}
-	.col-xs-6{width:50%}
+	.col-xs-6{width:33.33333333%}
 	.col-xs-5{width:41.66666667%}
 	.col-xs-4{width:33.33333333%}
 	.col-xs-3{width:25%}

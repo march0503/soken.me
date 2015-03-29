@@ -79,9 +79,40 @@ footer {margin-top:60px;}
 .sticky .teaser-title {margin-top:0; font-size:36px; color:#000; line-height:1.1em; border-left:5px solid #2a8ea5; padding-left:15px;} 
 .sticky .teaser-title a {color:#000;}
 
+
+/*
+#logo-holder {text-align:center; padding:20px 0 15px 0;}
+#logo {margin-bottom:5px; display:inline-block;}
+#site-title {font-family:'Teko',sans-serif; font-size:80px; line-height:80px; color:#fff; text-transform:uppercase; margin-bottom:15px;}
+#site-title:hover {opacity:0.6;}
+#site-desc {line-height:0.5; text-align:center; font-size:22px; font-family:'Teko',sans-serif; margin:0; color:#f0f0f0; opacity:0.6;}
+#site-desc span {display:inline-block; position:relative;}
+#site-desc span:before, #site-desc span:after {content:""; position:absolute; height:5px; border-bottom:1px solid #aaa; border-top:1px solid #aaa; top:2px; width:100px;}
+#site-desc span:before {right:100%; margin-right:15px;}
+#site-desc span:after {left:100%; margin-left:15px;}
+*/
+
+/* ----- post eyechatch ----- */
+#eyechatch-holder {padding:30px;background:none repeat scroll 0 0 #f5f5f5;}
+#eyechatch-top-holder {border-bottom:1px dotted #ddd; float:left; padding-bottom:15px;} 
+#eyechatch-top-holder .top-1 {width:33%; padding-left:0;}
+#eyechatch-top-holder .top-2 {width:33%; padding-left:0;}
+#eyechatch-top-holder .top-3 {width:33%; padding-right:0;}
+.eyechatch-top .eyechatch-date {background-color:#f2f2f2; color:#aaa; text-transform:uppercase; font-size:11px; margin:0; padding:3px 10px;}
+.eyechatch-top .eyechatch-title {padding-left:10px; font-size:16px;}
+.eyechatch-top .eyechatch-title a {color:#000;}
+.eyechatch {float:left; width:100%; padding:20px 20px 20px 0; border-bottom:1px dotted #ddd;}
+.eyechatch img {margin-bottom:12px;}
+.eyechatch p {margin:0}
+.eyechatch .eyechatch-date {font-size:11px; line-height:11px; text-transform:uppercase; color:#aaa; margin:0 0 10px 0;}
+.eyechatch .eyechatch-title {font-size:15px; padding-left:10px; margin:0 0 10px 0;}
+.eyechatch .eyechatch-title a {color:#000;}
+.eyechatch .eyechatch-title a:hover, .eyechatch-top .eyechatch-title a:hover, .sticky .eyechatch-title a:hover {color:#2a8ea5;}
+.eyechatch-title {border-left:3px solid #2a8ea5; }
+
 /* ----- post teasers ----- */
 #teaser-holder {padding:30px;}
-#teaser-top-holder {border-bottom:1px dotted #ddd; float:left; padding-bottom:15px;  background:none repeat scroll 0 0 #f5f5f5; width:1500px !important;} 
+#teaser-top-holder {border-bottom:1px dotted #ddd; float:left; padding-bottom:15px;  background:none repeat scroll 0 0 #f5f5f5;} 
 #teaser-top-holder .top-1 {width:33%; padding-left:0;}
 #teaser-top-holder .top-2 {width:33%; padding-left:0;}
 #teaser-top-holder .top-3 {width:33%; padding-right:0;}
