@@ -5,8 +5,8 @@
 			<?php the_title('<h1 id="post-title">', '</h1>'); ?>
 			<p id="post-meta">
 				<span><i class="fa fa-calendar"></i> <?php the_time(get_option('date_format')); ?></span> 
-				<span><i class="fa fa-user"></i> <?php the_author(); ?></span>
-				<span><i class="fa fa-comments"></i> <?php comments_number('0 Comments', '1 Comment', '% Comments'); ?></span>
+				<!--<span><i class="fa fa-user"></i> <?php the_author(); ?></span>-->
+				<!--<span><i class="fa fa-comments"></i> <?php comments_number('0 Comments', '1 Comment', '% Comments'); ?></span>-->
 			</p> 			
 			<?php the_content() ?>			
 			<?php wp_link_pages('before=<div id="post-pager">&after=</div>'); ?>		
